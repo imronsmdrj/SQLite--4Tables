@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumadireja.quizmp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Course.Course" />
+        <activity android:name=".Major.Major" />
+        <activity android:name=".Student.Student" />
+        <activity android:name=".StudentCourse.StudentCourse" />
+        <activity android:name=".Course.BuatCourse" />
+        <activity android:name=".Course.LihatCourse" />
+        <activity android:name=".Course.UpdateCourse" />
+        <activity android:name=".Major.BuatMajor" />
+        <activity android:name=".Major.LihatMajor" />
+        <activity android:name=".Major.UpdateMajor" />
+        <activity android:name=".Student.BuatStudent" />
+        <activity android:name=".Student.LihatStudent" />
+        <activity android:name=".Student.UpdateStudent" />
+        <activity android:name=".StudentCourse.BuatStudentCourse" />
+        <activity android:name=".StudentCourse.LihatStudentCourse" />
+        <activity android:name=".StudentCourse.UpdateStudentCourse"></activity>
+    </application>
+
+</manifest>
